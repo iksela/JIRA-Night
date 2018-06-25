@@ -808,6 +808,13 @@ header.aui-page-header {
 }
 
 tt, .search-entry {
+    background: var(--bg-darker);
+    color: var(--light);
+    font-family: "Fira Code", monospace !important;
+    font-size: 0.9em;
+}
+
+.search-entry {
     background: var(--bg-dark);
     color: var(--light);
     font-family: "Fira Code", monospace !important;
@@ -849,4 +856,8 @@ ul.labels li .lozenge {
 
 .issue-header.detached {
     box-shadow: 0 0 15px 5px var(--bg-darker);
+}
+
+.wiki-edit-content.previewClass {
+    background-color: var(--bg-dark);
 }
