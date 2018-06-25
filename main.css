@@ -278,6 +278,11 @@ form.aui .button {
     color: #c6ae65 !important;
 }
 
+.aui-lozenge.jira-issue-status-lozenge-medium-gray {
+    border-color: var(--light-grey) !important;
+    color: var(--light-grey) !important;
+}
+
 .aui-message.error, .aui-message-error {
     background: var(--grey) !important;
     background-color: var(--grey) !important;
