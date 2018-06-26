@@ -123,6 +123,10 @@ form.aui .button {
     background: var(--grey) !important;
 }
 
+.ghx-detail-section .ghx-header h3 {
+    background: var(--bg-darker);
+}
+
 #dashboard, .gadget .dashboard-item-content {
     background-color: var(--bg-darker) !important;
 }
