@@ -215,8 +215,12 @@ form.aui .button {
 }
 
 .aui-header .aui-dropdown2-trigger {
-    background-color: var(--bg-darker) !important;
+    background-color: var(--bg-darker);
     color: var(--light) !important;
+}
+
+.aui-header .aui-dropdown2-trigger:hover, .aui-header .aui-dropdown2-trigger:focus, .aui-header .aui-dropdown2-trigger.active {
+    background-color: var(--highlight);
 }
 
 .aui-dropdown2.aui-style-default>strong, .aui-dropdown2.aui-style-default .aui-dropdown2-section>strong, .aui-dropdown2-heading {
