@@ -68,6 +68,10 @@ em {
     color: var(--light-grey) !important;
 }
 
+.action-body blockquote {
+    background-color: var(--light-grey);
+}
+
 .issue-drop-zone__button {
     color: var(--highlight) !important;
 }
