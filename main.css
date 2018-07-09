@@ -879,3 +879,7 @@ ul.labels li .lozenge {
 .wiki-edit-content.previewClass {
     background-color: var(--bg-dark);
 }
+
+.intform form {
+    background-color: var(--bg-darker);
+}
