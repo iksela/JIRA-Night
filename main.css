@@ -883,3 +883,7 @@ ul.labels li .lozenge {
 .intform form {
     background-color: var(--bg-darker);
 }
+
+.ghx-issuetable {
+    background-color: var(--bg-dark);
+}
